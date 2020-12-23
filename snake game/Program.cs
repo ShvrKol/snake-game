@@ -112,17 +112,17 @@ namespace Project_X_bergerak
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.SetCursorPosition(0, A);
-                Console.Write("|");
+                Console.Write("█");
                 Console.SetCursorPosition(59, A);
-                Console.Write("|");
+                Console.Write("█");
             }
             for (int B = 0; B < 60; B++)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.SetCursorPosition(B, 0);
-                Console.Write("-");
+                Console.Write("█");
                 Console.SetCursorPosition(B, 29);
-                Console.Write("-");
+                Console.Write("█");
             }
 
         }//set arena map
